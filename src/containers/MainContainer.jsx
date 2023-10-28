@@ -3,7 +3,7 @@ import SideBar from "../components/SideBar";
 
 const MainContainer = ({ children }) => {
   return (
-    <div>
+    <div className="main-container">
       <SideBar />
       {children}
     </div>

@@ -1,0 +1,22 @@
+.root {
+  width: 200px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+  height: 100vh;
+  font-weight: 700;
+}
+
+.link {
+  display: block;
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover,
+  &.active {
+    color: #ff6f61;
+    background-color: #f2f2f2;
+  }
+}

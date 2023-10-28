@@ -4,6 +4,8 @@ import DummyTable from "./pages/DummyTable";
 import DummyList from "./pages/DummyList";
 import DummyChart from "./pages/DummyChart";
 
+import "./main.scss";
+
 function App() {
   return (
     <BrowserRouter>
