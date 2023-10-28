@@ -17,7 +17,9 @@ const SideBar = () => {
       {tabs.map(({ title, id }, idx) => (
         <Link
           className={`${styles.link}${
-            pathname === `/${id}` ? ` ${styles.active}` : ""
+            pathname === `/${id}` || (pathname === "/" && id === "dummy-chart")
+              ? ` ${styles.active}`
+              : ""
           }`}
           key={idx}
           to={`/${id}`}
