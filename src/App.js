@@ -13,7 +13,7 @@ function App() {
         <Route path="/dummy-list" element={<DummyList />} />
         <Route path="/dummy-chart" element={<DummyChart />} />
         <Route path="/dummy-table" element={<DummyTable />} />
-        <Route path="/" element={<DummyTable />} />
+        <Route path="/" element={<DummyChart />} />
       </Routes>
     </BrowserRouter>
   );
